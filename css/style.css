@@ -1,0 +1,337 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 100%;
+	background: rgb(36, 35, 35);
+}
+main {
+	width: 1500px;
+	margin: auto;
+	margin-top: 1vh;
+}
+.clear {
+	clear: both;
+}
+
+header {
+	width: 100%;
+	height: 150px;
+	background-color: rgb(247, 247, 236);
+}
+#en_tete {
+	width: 100%;
+	height: 16vh;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	margin: auto;
+}
+.logo {
+	width: 18vw;
+	height: 14vh;
+	float: left;
+	border-left: 2px solid orange;
+	padding-left: 1rem;
+}
+.logo p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2vw;
+	line-height: 4vh;
+}
+.texte_logo {
+	color: orange;
+}
+.espace_personnel {
+	float: left;
+	margin-left: 900px;
+}
+
+
+.bienvenue {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 1vw;
+	margin-bottom: 1vh;
+}
+.onglets_header {
+	float: left;
+	text-align: center;
+	padding: 1px;
+    margin: 50px;
+}
+.onglets_header a {
+	text-decoration: none;
+	color: black;
+    
+}
+
+figure img {
+	width: 1500px;
+}
+#promos {
+	width: 78.2vw;
+	height: 105vh;
+	background-color: rgb(247, 247, 236);
+	padding-top: 5vh;
+}
+.article {
+	float: left;
+	width: 31vw;
+	margin-left: 6vw;
+}
+.image_gant {
+	box-shadow: 3px 3px 6px black;
+}
+.rabais {
+	position: relative;
+	color: orange;
+	width: 5vw;
+	height: 5vh;
+	background-color: black;
+	font-weight: bold;
+	font-size: 1.5vw;
+	text-align: center;
+	border: 1px groove white;
+	top: -40vh;
+	left: 17vw;
+}
+.reference_gant {
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	top: -9vh;
+}
+.texte_noir {
+	float: left;
+	width: 10vw;
+	height: 3vh;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin-top: -6vh;
+	margin-left: 0.5rem;
+	line-height: 3vh;
+}
+.texte_noir a {
+	text-decoration: none;
+	color: white;
+}
+.texte_blanc {
+	float: left;
+	width: 10vw;
+	height: 3vh;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	margin-top: -6vh;
+	margin-left: 10.5vw;
+	box-shadow: 1px 1px 2px black;
+	line-height: 3vh;
+	text-decoration: line-through;
+}
+.barre {
+	text-decoration: none;
+}
+
+footer {
+	width: 100%;
+	height: 45vh;
+	background: rgb(66, 65, 65);
+}
+.contact {
+	position: relative;
+	width: 100%;
+	height: 3vh;
+	background: rgb(66, 65, 65);
+	margin-left: 700px;
+}
+.onglets_footer {
+	float: left;
+	width: 150px;
+	height: 3vh;
+	background-color: aliceblue;
+	text-align: center;
+    
+}
+.service_apres_vente {
+	width: 36vw;
+	margin-left: 600px;
+	color: white;
+}
+.sav {
+	margin-top: 5vh;
+	float: left;
+	width: 9vw;
+}
+.icone_footer {
+	padding-left: 2vw;
+	margin-bottom: 1vh;
+}
+.reseaux_sociaux {
+	margin-top: 5vh;
+	margin-bottom: 4vh;
+	padding-left: 37vw;
+}
+.reseaux_sociaux a {
+	margin-left: 3vw;
+}
+footer p {
+	color: white;
+}
+
+@media only screen and (max-width: 576px){
+   .container{
+    background-color: aliceblue;
+   }
+    main {
+        width : 576px;
+    }
+        header {
+            height: 15px;
+             }
+        #en_tete {
+            width: 100%;
+            height: 1vh;
+             }
+        .logo{
+            height: 150px;
+            width: 450px;
+            text-align: center;
+        }
+           
+        .logo p {
+            text-align: center;
+            font-weight: bold;
+            font-size:2vh;
+            line-height: 1vh;
+           
+        }
+        .logo img{
+            height: 150px;
+            width: 250px;
+            margin-left: 150px;
+        }
+        
+        
+       
+        .onglets_header {
+            float: left;
+            text-align: center;
+            padding: 1px;
+            margin: 50px;
+        }
+        .onglets_header a {
+            text-decoration: none;
+            color: black;
+            
+        }
+        
+        figure img {
+            width: 100%;
+        }
+        #promos {
+            width: 78.2vw;
+            height: 105vh;
+            background-color: white;
+            margin: auto;
+        }
+        .article {
+            float: initial;
+            width: 61vw;
+           
+        }
+        .image_gant {
+            text-align: center;
+        }
+        .rabais {
+          
+            width: 7vw;
+            height: 2vh;
+             top: -10;
+            left: 55vw;
+        }
+        .reference_gant {
+            position: none;
+            text-align: center;
+            font-weight:normal
+            
+        }
+        .texte_noir {
+            float: left;
+            width: 10vw;
+            height: 3vh;
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            margin-top: -6vh;
+            margin-left: 0.5rem;
+            line-height: 3vh;
+        }
+        .texte_noir a {
+            text-decoration: none;
+            color: white;
+        }
+        .texte_blanc {
+            float: left;
+            width: 10vw;
+            height: 3vh;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            margin-top: -6vh;
+            margin-left: 10.5vw;
+            box-shadow: 1px 1px 2px black;
+            line-height: 3vh;
+            text-decoration: line-through;
+        }
+        .barre {
+            text-decoration: none;
+        }
+        
+        footer {
+            width: 100%;
+            height: 45vh;
+            background: rgb(66, 65, 65);
+        }
+        .contact {
+            position: relative;
+            width: 100%;
+            height: 3vh;
+            background: rgb(66, 65, 65);
+            margin-left: 700px;
+        }
+        .onglets_footer {
+            float: left;
+            width: 150px;
+            height: 3vh;
+            background-color: aliceblue;
+            text-align: center;
+            
+        }
+        .service_apres_vente {
+            width: 36vw;
+            margin-left: 600px;
+            color: white;
+        }
+        .sav {
+            margin-top: 5vh;
+            float: left;
+            width: 9vw;
+        }
+        .icone_footer {
+            padding-left: 2vw;
+            margin-bottom: 1vh;
+        }
+        .reseaux_sociaux {
+            margin-top: 5vh;
+            margin-bottom: 4vh;
+            padding-left: 37vw;
+        }
+    }
+    
+   
